@@ -9,6 +9,7 @@ const quotes = [
   "Be yourself; everyone else is already taken.",
   "Two things are infinite: the universe and human stupidity.",
   "So many books, so little time.",
+  "에베베베베베"
 ];
 
 app.get("/api/quote", (req, res) => {
