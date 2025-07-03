@@ -18,7 +18,7 @@ const languages = [
   { name: "Java", description: "Write once, run anywhere." },
 ];
 
-app.get("/api/language", (req, res) => {
+app.get("/", (req, res) => {
   const random = languages[Math.floor(Math.random() * languages.length)];
   res.json(random);
 });
